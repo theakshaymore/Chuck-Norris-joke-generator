@@ -1,0 +1,85 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap");
+
+* {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+  font-family: "Poppins", sans-serif;
+}
+
+body {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+.Navbar {
+  padding: 20px;
+  display: flex;
+  align-items: center;
+  max-width: 100%;
+  min-height: 30px;
+  margin: 0 auto;
+  border-bottom: 1px solid #f2f2f2;
+  background-color: #6ec72d;
+  color: black;
+  border: none;
+}
+.Navbar h1 {
+  color: black;
+  font-size: 40px;
+  transform: scale(1);
+  transition: 0.5s;
+}
+.Navbar h1:hover {
+  transform: scale(1) translateY(-15px);
+}
+.Navbar .links {
+  margin-left: auto;
+}
+.Navbar a {
+  margin-left: 16px;
+  text-decoration: none;
+  padding: 6px;
+  color: black;
+  font-size: 20px;
+  background-color: #1faa59;
+  border-radius: 10px;
+}
+
+.Character__jokes {
+  padding: 10px 10px;
+  margin: 30px 10px;
+  background-color: #38cc77;
+  border-radius: 15px;
+  /* box-shadow: -3px -3px 10px ##38cc77, 3px 3px 20px #00000070; */
+}
+.Character__jokes img {
+  max-width: 100%;
+  min-height: 100%;
+}
+.Character__jokes h2 {
+  transform: scale(1);
+  transition: 0.5s;
+  color: black;
+}
+.Character__jokes h2:hover {
+  color: rgb(24, 23, 23);
+  transform: scale(1) translateY(-15px);
+}
+.Character__jokes button {
+  padding: 5px 10px;
+  margin: 20px 200px;
+  border-radius: 5px;
+  font-size: 15px;
+  font-weight: 600;
+  border: 2px solid #1faa59;
+  background-color: #1faa59;
+  outline: none;
+  cursor: pointer;
+  transform: scale(1);
+  transition: 0.5s;
+}
+.Character__jokes button:hover {
+  background-color: #6ec72d;
+  transform: scale(1) translateY(-15px);
+}
